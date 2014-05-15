@@ -49,7 +49,7 @@ public class EmbeddedZooKeeper extends ExternalResource {
         }
     }
 
-    protected final int allocatePort() {
+    private int allocatePort() {
         InetSocketAddress inetSocketAddress = new InetSocketAddress(0);
         try (ServerSocket socket = new ServerSocket()) {
             socket.bind(inetSocketAddress);
