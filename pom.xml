@@ -29,4 +29,9 @@
         </dependency>
     </dependencies>
 
+    <scm>
+        <connection>scm:git:git://github.com:federecio/zookeeper-testing.git</connection>
+        <developerConnection>scm:git:git@github.com:federecio/zookeeper-testing.git</developerConnection>
+        <url>http://github.com/federecio/zookeeper-testing</url>
+    </scm>
 </project>
