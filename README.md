@@ -39,6 +39,8 @@ Usage
 		   // ZK is running, same instance as test1()
 		}
 
+__Note__: in this case ZooKeeper server will stop after all tests have finished.
+
 * As a Rule:
 
 		@Rule
@@ -53,6 +55,8 @@ Usage
 		public void test2() {
 		   // ZK is running, just not the same ZK instance as test1()
 		}
+
+__Note__: in this case ZooKeeper server will stop after each test has finished and it will start before the following test executes.
 
 Determine ZK connection string
 ------------------------------
