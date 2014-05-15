@@ -9,8 +9,8 @@ Maven
 * Add the following Maven repository:
 
 		<repository>
-			<id>federecio-releases</id>
-			<url>https://repository-federecio1.forge.cloudbees.com/release/</url>
+			<id>federecio-snapshots</id>
+			<url>https://repository-federecio1.forge.cloudbees.com/snapshot/</url>
 		</repository>
 
 * Add the Maven dependency:
